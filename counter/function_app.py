@@ -5,7 +5,7 @@ import json
 
 app = func.FunctionApp()
 
-@app.route(route="GetCount", auth_level=func.AuthLevel.ANONYMOUS)
+@app.route(route="counter", auth_level=func.AuthLevel.ANONYMOUS)
 def get_count(req: func.HttpRequest) -> func.HttpResponse:
     # 1. Initialize Client (using Environment Variables)
     client = CosmosClient(os.environ["COSMOS_DB_ENDPOINT"], os.environ["COSMOS_DB_KEY"])
