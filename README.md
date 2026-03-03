@@ -19,7 +19,7 @@ This challenge was completed by building a cloud-based resume site hosted on Mic
 |------------------|-------------------------------------------|
 | **Frontend**      | HTML, CSS, JavaScript                    |
 | **Hosting**       | Azure Static Website                     |
-| **Custom Domain** | [zacharyharrison.dev](https://www.zacharharrison.dev) via Namecheap + CloudFlare DNS |
+| **Custom Domain** | [zacharyharrison.dev](https://www.zacharyharrison.dev) via Namecheap + CloudFlare DNS |
 | **Security**      | HTTPS via Azure Static Web Apps          |
 | **Backend**       | Azure Functions (Python)                 |
 | **Database**      | Azure Cosmos DB                          |
