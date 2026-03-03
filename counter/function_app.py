@@ -24,6 +24,6 @@ def get_count(req: func.HttpRequest) -> func.HttpResponse:
                                  mimetype="application/json")
     
     except exceptions.CosmosResourceNotFoundError:
-        # Fallback if document doesn't exist 
+        # Fallback if document doesn't exist  
         container.create_item({"id": "visitor-count", "count": 1})
         return func.HttpResponse(json.dumps({"count": 1}), mimetype="application/json")
