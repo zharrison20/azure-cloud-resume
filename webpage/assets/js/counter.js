@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) =>{
   getVistitCount();
 })
 
-const functionApi = 'counter-bfgvbeanc7fvdrhk.westus2-01.azurewebsites.net'
+const functionApi = 'https://counter-bfgvbeanc7fvdrhk.westus2-01.azurewebsites.net/api/counter'
 
 const getVistitCount = () => {
   let count = 30;
