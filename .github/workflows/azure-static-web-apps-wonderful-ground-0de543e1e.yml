@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'webpage/**'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -55,4 +57,5 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
+          app_location: webpage
           action: "close"
