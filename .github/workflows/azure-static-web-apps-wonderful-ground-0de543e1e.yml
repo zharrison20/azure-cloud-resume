@@ -58,4 +58,5 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           app_location: webpage
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WONDERFUL_GROUND_0DE543E1E }}
           action: "close"
