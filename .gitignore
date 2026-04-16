@@ -136,7 +136,6 @@ __azurite_db*__.json
 /terraform
 
 #old website template
-/webpage
 /webpage.old
 /webpage.old2
 /webpage.old3
