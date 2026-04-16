@@ -24,7 +24,7 @@ export const Hero = () => {
         <div className="space-y-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Zachary Harrison</h1>
-            <p className="mt-1 font-mono text-base text-muted-foreground">ZacharyHarrison</p>
+            <p className="mt-1 font-mono text-base text-muted-foreground">Cloud Engineer</p>
           </div>
 
           <p className="text-base md:text-lg text-foreground/90 max-w-2xl leading-relaxed">
