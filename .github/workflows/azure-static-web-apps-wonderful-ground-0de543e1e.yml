@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'webpage**'
+      - 'webpage.old/**'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
