@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="container flex h-14 items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-semibold">
           <Github className="h-5 w-5" />
-          <span>ZacharyHarrison</span>
+          <span>Zachary Harrison</span>
         </a>
         <Button
           variant="ghost"

@@ -15,6 +15,7 @@ export const Hero = () => {
             width={280}
             height={280}
             className="h-56 w-56 md:h-64 md:w-64 rounded-full object-cover ring-1 ring-border shadow-card"
+            
           />
           <Badge className="absolute -bottom-1 left-1/2 -translate-x-1/2 gradient-primary text-primary-foreground border-0 gap-1 shadow-glow whitespace-nowrap">
             <Award className="h-3 w-3" /> AZ-900 • CompTIA A+
@@ -24,7 +25,7 @@ export const Hero = () => {
         <div className="space-y-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Zachary Harrison</h1>
-            <p className="mt-1 font-mono text-base text-muted-foreground">ZacharyHarrison</p>
+            <p className="mt-1 font-mono text-base text-muted-foreground">Cloud Engineer</p>
           </div>
 
           <p className="text-base md:text-lg text-foreground/90 max-w-2xl leading-relaxed">
