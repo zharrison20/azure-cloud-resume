@@ -6,6 +6,7 @@ import { Projects } from "./Projects";
 import { Experience } from "./Experience";
 import { Education } from "./Education";
 import { Contact } from "./Contact";
+import { title } from "process";
 
 type TabId = "overview" | "certifications" | "projects" | "cv" | "contact";
 
@@ -22,6 +23,7 @@ const Certifications = () => (
     <h2 className="text-2xl md:text-3xl font-bold mb-6">Certifications</h2>
     <div className="grid gap-4 md:grid-cols-2">
       {[
+        { title: "In Progress: Microsoft Certified: Azure Administrator Associate", code: "AZ-104", issuer: "Microsoft" },
         { title: "Microsoft Certified: Azure Fundamentals", code: "AZ-900", issuer: "Microsoft" },
         { title: "CompTIA A+", code: "220-1101 / 220-1102", issuer: "CompTIA" },
       ].map((c) => (
